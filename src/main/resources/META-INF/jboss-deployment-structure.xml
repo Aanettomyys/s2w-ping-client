@@ -1,0 +1,9 @@
+<jboss-deployment-structure>
+    <deployment>
+        <dependencies>
+            <module name="org.apache.commons.lang" services="import" />
+            <module name="org.apache.commons.codec" services="import" />
+            <module name="org.slf4j" services="import" />
+        </dependencies>
+    </deployment>
+</jboss-deployment-structure>
