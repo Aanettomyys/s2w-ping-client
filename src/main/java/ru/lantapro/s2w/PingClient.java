@@ -35,7 +35,7 @@ public class PingClient {
     @Lock(LockType.WRITE)
     public void poke() {
         try {
-            for (int step = 0; step < 10; step ++) {
+            for (int step = 0; step < 5; step ++) {
                 target.request(MediaType.APPLICATION_JSON).get(String.class);
             }
         } catch (Exception ex) {
